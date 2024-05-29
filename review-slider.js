@@ -62,6 +62,21 @@ document.addEventListener("DOMContentLoaded", function() {
                 nextEl: '#review-next',
                 prevEl: '#review-prev',
               },
+              // Responsive breakpoints
+              breakpoints: {
+                1024: {
+                  slidesPerView: 3,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+                },
+                0: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                }
+              }
             });
             console.log('Swiper initialized:', swiper);
         } catch (error) {
