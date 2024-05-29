@@ -57,6 +57,7 @@ document.addEventListener("DOMContentLoaded", function() {
               slidesPerView: 3,
               spaceBetween: 20,
               effect: 'slide',
+              autoHeight: true,
               speed: 800,
               navigation: {
                 nextEl: '#review-next',
