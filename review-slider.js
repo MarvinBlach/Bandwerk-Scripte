@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <div rev-name="" class="text-size-medium text-weight-semibold">${review.reviewer.displayName}</div>
               </div>
               <div class="spacer-29"></div>
-              <h5 rev-heading="" class="heading-style-h5 text-color-black">${review.title}</h5>
+              <div rev-heading="" class="heading-style-h5 text-color-black">${review.title}</div>
               <div class="spacer-9"></div>
               <p rev-text="" class="text-size-medium">${review.body}</p>
             </div>
